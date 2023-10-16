@@ -29,7 +29,8 @@ jobs:
         run: dotnet build MiNotSoSimpleApp/MiNotSoSimpleApp.csproj --configuration Release
 
       - name: Run Tests
-        run: dotnet test MiNotSoSimpleAppTests/MiNotSoSimpleAppTests.csproj --configuration Release --no-build --verbosity normal
+        run: dotnet test MiNotSoSimpleAppTests/MiNotSoSimpleAppTests.csproj --configuration Debug --no-build --verbosity normal
+
 
   deploy:
     runs-on: ubuntu-latest
