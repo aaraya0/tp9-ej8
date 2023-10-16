@@ -6,7 +6,7 @@ EXPOSE 80
 # Usa la imagen oficial de .NET Core SDK para construir la aplicación
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["MiNotSoSimpleApp/MiNotSoSimpleApp.csproj", "MiNotSoSimpleApp/"]
+COPY ["tp9-ej8/MiNotSoSimpleApp/MiNotSoSimpleApp.csproj", "tp9-ej8/MiNotSoSimpleApp/"]
 RUN dotnet restore "MiNotSoSimpleApp/MiNotSoSimpleApp.csproj"
 COPY . .
 WORKDIR "/src/MiNotSoSimpleApp"
