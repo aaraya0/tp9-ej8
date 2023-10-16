@@ -55,4 +55,4 @@ jobs:
           context: . # Esto asume que el Dockerfile está en la raíz del proyecto.
           push: true
           tags: |
-            aaraya0/MiNotSoSimpleApp:latest
+            aaraya0/tp9-ej8:latest
