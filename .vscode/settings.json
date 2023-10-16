@@ -1,0 +1,4 @@
+{
+    "dotnet-test-explorer.testProjectPath": "MiNotSoSimpleAppTests",
+    "dotnet-test-explorer.testFileSuffix": ".Tests.dll"
+}
